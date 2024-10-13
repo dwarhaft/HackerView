@@ -15,6 +15,8 @@ struct DetailView: View {
     var body: some View {
         
         WebView(urlString: url)
+        ShareLink(item: url!)
+
     }
 }
 

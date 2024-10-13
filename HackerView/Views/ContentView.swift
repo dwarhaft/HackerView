@@ -19,9 +19,11 @@ struct ContentView: View {
                         Text(String(post.points))
                         Text(post.title)
                     }
+                  //  ShareLink(item: post.url!)
                 }
             }
             .navigationBarTitle("Hacker News")
+           
         }
         .onAppear {
             self.networkManager.fetchData()

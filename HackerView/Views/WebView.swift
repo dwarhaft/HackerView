@@ -23,8 +23,12 @@ struct WebView: UIViewRepresentable {
             if let url = URL(string: safeString) {
                 let request = URLRequest(url: url)
                 uiView.load(request)
+               
+                
+
+                
             }
         }
+        
     }
-    
 }
